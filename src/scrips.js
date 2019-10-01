@@ -1,5 +1,5 @@
 
-const character = document.querySelector('character')
-character.onkeydown((e) => {
-  alert('aqui')
-})
+document.addEventListener("DOMContentLoaded", function(event) { 
+  var character = document.getElementById('character');
+  console.log(character)
+});
